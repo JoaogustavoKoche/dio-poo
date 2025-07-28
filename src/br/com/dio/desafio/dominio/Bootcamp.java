@@ -23,6 +23,10 @@ public class Bootcamp {
         this.conteudos = new LinkedHashSet<>();
     }
 
+    public Bootcamp() {
+
+    }
+
     public String getNome() {
         return nome;
     }

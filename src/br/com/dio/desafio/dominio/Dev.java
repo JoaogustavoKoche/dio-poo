@@ -7,7 +7,7 @@ public class Dev {
     private Set<Conteudo> conteudosInscritos = new LinkedHashSet<>();
     private Set<Conteudo> conteudosConcluidos = new LinkedHashSet<>();
 
-    public Dev(String nome) {
+    public Dev() {
         this.nome = nome;
     }
 
